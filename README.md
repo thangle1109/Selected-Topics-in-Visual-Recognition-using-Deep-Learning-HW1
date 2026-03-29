@@ -1,27 +1,51 @@
 # NYCU Computer Vision - Spring 2025: Homework 1
 
-**Student ID:** 312540013  
-**Name:** Do Tran Nhat Tuong
+**Student ID:** 414540003  
+**Name:** Le Quang Thang
 
 ---
 
-## 🔍 Overview
+## 🎯 Objective
+This project addresses the task of **fine-grained image classification** across 100 categories using a dataset of 21,024 samples. The problem is particularly challenging due to **high inter-class similarity**, where visually similar categories (e.g., different types of white flowers) require precise and discriminative feature learning.
 
-**Objective:**  
-Classify images into 100 fine-grained categories from a dataset containing 21,024 samples. Some classes exhibit high visual similarity (e.g., different kinds of white flowers), posing additional challenges.
+---
 
-**Constraints:**  
-- No use of external datasets  
-- Model size < 100M parameters  
-- Backbone limited to ResNet variants
+## ⚙️ Constraints
+To ensure fair comparison and practical deployment, the following constraints are enforced:
 
-**Approach:**  
-- Experiment with different ResNet-based architectures  
-- Handle class imbalance using probability sampling  
-- Apply both weak and strong data augmentations  
-- Integrate advanced modules like Attention and Squeeze-and-Excitation (SE) to enhance feature representation  
-- Test various training setups (batch sizes, learning rate schedulers, optimizers) and report results
+- No external datasets or additional data sources are allowed  
+- Model size must be **less than 100 million parameters**  
+- Backbone architectures are restricted to **ResNet variants** (e.g., ResNet18, ResNet34)  
 
+---
+
+## 🧠 Methodology
+We adopt a comprehensive experimental strategy to tackle the challenges:
+
+### 🔹 Backbone Exploration
+- Evaluate multiple **ResNet-based architectures**
+- Apply customized modifications to improve performance
+
+### 🔹 Handling Class Imbalance
+- Use **probability-based sampling strategies** to balance training data distribution
+
+### 🔹 Data Augmentation
+- Combine both:
+  - **Weak augmentation** (e.g., flip, resize)
+  - **Strong augmentation** (e.g., color jitter, random erasing)
+
+### 🔹 Model Enhancement
+- Integrate advanced modules:
+  - **Attention mechanisms**
+  - **Squeeze-and-Excitation (SE) blocks**
+- Improve feature representation and channel-wise importance learning
+
+### 🔹 Training Optimization
+- Experiment with:
+  - Different **batch sizes**
+  - Various **learning rate schedulers**
+  - Multiple **optimizers**
+  
 ---
 
 ## ⚙️ Setup
