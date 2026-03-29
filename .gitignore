@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Data (IMPORTANT for ML)
+data/
+datasets/
+*.csv
+*.tsv
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
+
+# Results / experiments
+runs/
+wandb/
+mlruns/
+
+# Temporary files
+*.tmp
+*.cache
+
+# Latex (paper writing - bạn hay dùng)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Secrets
+.env
+
+#checkpoint
+cp*
