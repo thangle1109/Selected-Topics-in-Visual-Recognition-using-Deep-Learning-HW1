@@ -53,13 +53,13 @@ We adopt a comprehensive experimental strategy to tackle the challenges:
 Clone the repository and create the environment:
 
 ```bash
-git clone https://github.com/dotrannhattuong/Selected_Topics.git
+git clone https://github.com/thangle1109/Selected-Topics-in-Visual-Recognition-using-Deep-Learning-HW1.git
 cd Selected_Topics/HW1
 conda env create -f environment.yml
 ```
 
 ---
-
+S
 ## 📁 Project Structure
 
 ```
