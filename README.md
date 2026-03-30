@@ -62,7 +62,7 @@ conda env create -f environment.yml
 ## 📁 Project Structure
 
 ```
-HW1/
+Selected_Topics_HW1/
 │
 ├── augmentation/        # Offline augmentation scripts (weak & strong)
 ├── data/                # Dataset: train/val/test folders
